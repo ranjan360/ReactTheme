@@ -1,0 +1,38 @@
+nav {
+	display: flex;
+	justify-content: space-between;
+	background: black;
+	align-items: center; 
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.logo{
+	font-size: 30px;
+	color: #fff;
+}
+.logo:hover{
+	font-size: 30px;
+	color: red;
+}
+nav ul{
+	list-style: none;
+}
+
+nav ul li{
+	display: inline-block;
+	margin-right: 8px;
+}
+
+nav ul li a{
+	font-size: 18px;
+	text-decoration: none;
+	color: #fff;
+}
+
+nav ul li a:hover{
+	font-size: 18px;
+	text-decoration: none;
+	color: red;
+}
+
